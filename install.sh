@@ -835,7 +835,6 @@ main() {
 }
 
 # Execute main function if script is run directly
-if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     # Check for minimum bash version
     if [[ ${BASH_VERSION%%.*} -lt 4 ]]; then
         echo "Error: Bash 4.0+ required"
